@@ -40,10 +40,10 @@
 **IP與密碼已上碼**
 **使用者須要自行更改**
 
-* 因為藍芽與PI的傳輸尚未實現,目前是用傳輸線連接PI與UNO,跳過藍芽傳輸的步驟。
-* ultrasonic_car.ino
+### 因為藍芽與PI的傳輸尚未實現,目前是用傳輸線連接PI與UNO,跳過藍芽傳輸的步驟。
+### 1.ultrasonic_car.ino
 
-每台自走車因馬達組裝方式都有略微差異,再組裝時需要對車行進方向的副程式進行調整
+* 功能:每台自走車因馬達組裝方式都有略微差異,再組裝時需要對車行進方向的副程式進行調整
 
 ex.下面是前進的副程式
 
@@ -61,9 +61,9 @@ ex.下面是前進的副程式
 
 pin的`HIGH、LOW`需要自行測試方向並設定or接線
 
-* final1.py
+### final1.py
 
-接收uno板回傳的距離資訊
+* 功能:接收uno板回傳的距離資訊
 
     ser=serial.Serial('/dev/ttyACM0',9600)
     
@@ -85,8 +85,8 @@ pin的`HIGH、LOW`需要自行測試方向並設定or接線
                 post123=[{"author": "Final",
                             "text": "Distance Test!",
                             "distance":d}]
-* final2.py
-存至本地端
+### final2.py
+* 功能:存至本地端
 
     clients =pymongo.MongoClient("mongodb://localhost:27017/")
 
@@ -109,9 +109,8 @@ ip位址 `hostname='163.xxx.xxx.xxxx'`
 
 密碼 `'password':'xxxxxxxxx'`
 
-* final3.ipynb
-
-檔案要丟上jupyter
+### jupyter>final3.ipynb
+* 功能:jupyter 上傳至
 
     client = MongoClient("xxx.xxx.xxx.xxxx",27017,username="st_admin",password="xxxxxxx")
     db = client.db_ddd
@@ -124,12 +123,10 @@ ip位址 `hostname='163.xxx.xxx.xxxx'`
 
 資料要再做一次形態處理`regular_v6 = re.findall(r"\d\d+.\d+",str(a))`
 
-* jupyter
-
-運行結果
+**運行結果**
 
 `connected0
 final/Jian
 44.28`
     
-* 最後去sever>client>post查看資料有無新增
+## 最後去sever>client>post查看資料有無新增
