@@ -51,6 +51,7 @@ ex.下面是前進的副程式
     }
 
 其中`100`是馬達轉速的控制,因每個馬達都有各自的轉速,需要控制其走直線
+
 pin的`HIGH、LOW`需要自行測試方向性設定or接線
 
 * final1.py
@@ -115,3 +116,13 @@ ip位址 `hostname='163.xxx.xxx.xxxx'`
 同理,ip與密碼要設定好        
 
 資料要再做一次形態處理`regular_v6 = re.findall(r"\d\d+.\d+",str(a))`
+
+* jupyter
+
+運行結果
+
+`connected0
+final/Jian
+44.28`
+    
+最後去sever>client>post查看資料有無新增
