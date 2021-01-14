@@ -14,6 +14,9 @@
   * 18660 電池+三串電池盒
 * 藍芽模組
 
+#實體圖
+![image](https://github.com/HXHX2678/ultrasonic_car-bluetooth-mongo-server/blob/main/261559.jpg)
+
 # 環境建置
 * 本地端(raspberry pi4)
   * Ubuntu 18.04
