@@ -35,7 +35,9 @@
 # 程式介紹
 
 !!注意!! 
-final2.py 與 final3.ipynb ip與密碼已上碼
+`final2.py` 與 `final3.ipynb` 
+
+IP與密碼已上碼
 使用者須要自行更改
 
 因為藍芽與PI的傳輸尚未實現,目前是用傳輸線連接PI與UNO,跳過藍芽傳輸的步驟。
