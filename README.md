@@ -16,7 +16,7 @@
 
 # 實體圖
 ![image](https://github.com/HXHX2678/ultrasonic_car-bluetooth-mongo-server/blob/main/img/261559.jpg)
-![image](https://github.com/HXHX2678/ultrasonic_car-bluetooth-mongo-server/blob/main/261560.jpg)
+![image](https://github.com/HXHX2678/ultrasonic_car-bluetooth-mongo-server/blob/main/img/261560.jpg)
 
 # 環境建置
 * 本地端(raspberry pi4)
