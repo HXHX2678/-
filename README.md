@@ -14,7 +14,7 @@
   * 18660 電池+三串電池盒
 * 藍芽模組
 
-#實體圖
+# 實體圖
 ![image](https://github.com/HXHX2678/ultrasonic_car-bluetooth-mongo-server/blob/main/261559.jpg)
 
 # 環境建置
