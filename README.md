@@ -61,7 +61,7 @@ ex.下面是前進的副程式
 
 pin的`HIGH、LOW`需要自行測試方向並設定or接線
 
-### final1.py
+### 2.final1.py
 
 * 功能:接收uno板回傳的距離資訊
 
@@ -85,7 +85,7 @@ pin的`HIGH、LOW`需要自行測試方向並設定or接線
                 post123=[{"author": "Final",
                             "text": "Distance Test!",
                             "distance":d}]
-### final2.py
+### 3.final2.py
 * 功能:存至本地端
 
     clients =pymongo.MongoClient("mongodb://localhost:27017/")
@@ -109,7 +109,7 @@ ip位址 `hostname='163.xxx.xxx.xxxx'`
 
 密碼 `'password':'xxxxxxxxx'`
 
-### jupyter>final3.ipynb
+### 4.jupyter>final3.ipynb
 * 功能:jupyter 上傳至
 
     client = MongoClient("xxx.xxx.xxx.xxxx",27017,username="st_admin",password="xxxxxxx")
